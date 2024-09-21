@@ -30,7 +30,7 @@ class WeatherController extends Controller
         $city = $cityTranslations[$city] ?? $city;
         
         $duration = $request->input('duration', 'current'); // Default to 'current'
-        $apiKey = 'a8441024883fff8a1c5013080489f99a';
+        $apiKey = 'Your_API_KEY';
         
         if ($duration == 'current') {
             // Current weather data endpoint
